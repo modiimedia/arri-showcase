@@ -15,7 +15,7 @@ async fn main() {
     });
     let result = client
         .say_hello(SayHelloParams {
-            name: "Johnny".to_string(),
+            name: "John".to_string(),
         })
         .await;
     println!("{}", result.unwrap().message);

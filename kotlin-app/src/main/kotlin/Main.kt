@@ -9,6 +9,6 @@ fun main() {
         headers = { -> mutableMapOf() },
     )
     thread {
-        client.sayHello("Johnny")
+        client.sayHello("John")
     }
 }
