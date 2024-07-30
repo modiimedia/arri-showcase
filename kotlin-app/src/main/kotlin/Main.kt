@@ -1,14 +1,14 @@
 import io.ktor.client.*
-import kotlin.concurrent.thread
+import kotlinx.coroutines.runBlocking
 
 fun main() {
     val httpClient = HttpClient()
-    val client = Client(
+    val client = MyClient(
         httpClient,
         "http://localhost:3000",
         headers = { -> mutableMapOf() },
     )
-    thread {
-        client.sayHello("John")
+    runBlocking {
+        client.sayHello(SayHelloParams("John"))
     }
 }
