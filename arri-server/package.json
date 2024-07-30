@@ -14,12 +14,12 @@
   },
   "keywords": [],
   "dependencies": {
-    "@arrirpc/schema": "^0.57.4",
-    "@arrirpc/server": "^0.57.4",
-    "arri": "^0.57.4"
+    "@arrirpc/schema": "^0.57.6",
+    "@arrirpc/server": "^0.57.6",
+    "arri": "^0.57.6"
   },
   "devDependencies": {
-    "@arrirpc/eslint-plugin": "^0.57.4",
+    "@arrirpc/eslint-plugin": "^0.57.6",
     "@eslint/js": "^9.8.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
