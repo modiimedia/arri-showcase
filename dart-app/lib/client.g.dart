@@ -21,7 +21,7 @@ class MyClient {
   Future<SayHelloResponse> sayHello(SayHelloParams params) async {
     return parsedArriRequest(
       "$_baseUrl/say-hello",
-      method: HttpMethod.get,
+      method: HttpMethod.post,
       httpClient: _httpClient,
       headers: _headers,
       clientVersion: _clientVersion,

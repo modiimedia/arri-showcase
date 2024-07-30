@@ -41,7 +41,7 @@ class MyClient(
         val response = __prepareRequest(
             client = httpClient,
             url = "$baseUrl/say-hello",
-            method = HttpMethod.Get,
+            method = HttpMethod.Post,
             params = params,
             headers = headers?.invoke(),
         ).execute()

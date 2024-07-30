@@ -43,7 +43,7 @@ impl MyClient {
             ArriParsedRequestOptions {
                 http_client: &self._config.http_client,
                 url: format!("{}/say-hello", &self._config.base_url),
-                method: reqwest::Method::GET,
+                method: reqwest::Method::POST,
                 headers: self._config.headers.clone(),
                 client_version: "1".to_string(),
             },

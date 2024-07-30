@@ -40,12 +40,12 @@ export class MyClient {
   async sayHello(params: SayHelloParams): Promise<SayHelloResponse> {
     return arriRequest<SayHelloResponse, SayHelloParams>({
       url: `${this._baseUrl}/say-hello`,
-      method: "get",
+      method: "post",
       headers: this._headers,
       params: params,
       responseFromJson: $$SayHelloResponse.fromJson,
       responseFromString: $$SayHelloResponse.fromJsonString,
-      serializer: $$SayHelloParams.toUrlQueryString,
+      serializer: $$SayHelloParams.toJsonString,
       clientVersion: "1",
     });
   }
