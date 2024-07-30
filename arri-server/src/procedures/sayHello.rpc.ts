@@ -2,7 +2,6 @@ import { a } from "@arrirpc/schema";
 import { defineRpc } from "@arrirpc/server";
 
 export default defineRpc({
-    method: "post",
     params: a.object("SayHelloParams", {
         name: a.string(),
     }),
