@@ -1,0 +1,4 @@
+{
+  "cSpell.words": ["Arri", "reqwest"],
+  "rust-analyzer.linkedProjects": ["${workspaceFolder}/rust-app/Cargo.toml"]
+}

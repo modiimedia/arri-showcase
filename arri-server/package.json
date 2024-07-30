@@ -1,0 +1,32 @@
+{
+  "name": "arri-playground",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "An RPC server created with Arri RPC",
+  "scripts": {
+    "dev": "arri dev",
+    "build": "arri build",
+    "format": "prettier --write ./src ./types .prettierrc arri.config.ts tsconfig.json README.md",
+    "lint": "eslint ./src ./types",
+    "lint:fix": "eslint ./src ./types --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@arrirpc/schema": "^0.57.4",
+    "@arrirpc/server": "^0.57.4",
+    "arri": "^0.57.4"
+  },
+  "devDependencies": {
+    "@arrirpc/eslint-plugin": "^0.57.4",
+    "@eslint/js": "^9.8.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "7.18.0"
+  },
+  "private": true,
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
+}
