@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@arrirpc/client':
-        specifier: ^0.57.4
-        version: 0.57.4
+        specifier: ^0.57.6
+        version: 0.57.6
     devDependencies:
       esbuild:
         specifier: ^0.23.0
@@ -21,11 +21,11 @@ importers:
 
 packages:
 
-  '@arrirpc/client@0.57.4':
-    resolution: {integrity: sha512-x1SKmxYfPoZLNmnqTa0BK3pYeM0kPFDobdRdqSitAzKZ1FtoRm5OINUgrHxUpkuUDc/L+QGCOnp6HHKRCwZxWg==}
+  '@arrirpc/client@0.57.6':
+    resolution: {integrity: sha512-sDvJGiCE6//byvjl0Cr2m0c4jjpq1LmaaLW94Ux7C6NdoSZhA0swg2M1s/VChHjTfQNG1U+YB0teMEeVTMBiDA==}
 
-  '@arrirpc/schema@0.57.4':
-    resolution: {integrity: sha512-MGSZuJ6Foqy0Ua14Nybfskq4lahZIlO2ewpOoZ4U1ut4Jo1y4FHlHOcdzhv5+n6FVMZ4U/2+s80uQ2+YVawq4A==}
+  '@arrirpc/schema@0.57.6':
+    resolution: {integrity: sha512-JjX6rtJ/Toug/jAb4oR6k7S+R1PKZZdJD9T6PwWo40lc83klrmrvzH5+NfueOa0FQbIl82XOKvBxGsz9dLu+cA==}
 
   '@esbuild/aix-ppc64@0.23.0':
     resolution: {integrity: sha512-3sG8Zwa5fMcA9bgqB8AfWPQ+HFke6uD3h1s3RIwUNK8EG7a4buxvuFTs3j1IMs2NXAk9F30C/FF4vxRgQCcmoQ==}
@@ -182,8 +182,8 @@ packages:
   event-source-plus@0.1.3:
     resolution: {integrity: sha512-FPnm1JQJDi4nli1MA8P3n/UxvnsV3aC50n2KGTtD0meL4by7mAE7aMKLQomvwWKSEEVlfOIJBJHXCHpU0LdjJA==}
 
-  jtd-utils@0.57.4:
-    resolution: {integrity: sha512-u4SqtVgNs7wgArBoFYVVuGsC6lUB8EAxDw7I/pXjgkZalXrR2Ez+Bk1a/GhlWzpWUdcmEAAARsZATzKYQzfT9A==}
+  jtd-utils@0.57.6:
+    resolution: {integrity: sha512-9kt8OsLAS/LozVZW4om+FXhgxzzRaF8PeN+4DFz4iRHO8H/pycFiFUUNGy/gIxDMkn8WZ1XYnxdx2Jj8REjAQw==}
 
   node-fetch-native@1.6.4:
     resolution: {integrity: sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==}
@@ -219,9 +219,9 @@ packages:
 
 snapshots:
 
-  '@arrirpc/client@0.57.4':
+  '@arrirpc/client@0.57.6':
     dependencies:
-      '@arrirpc/schema': 0.57.4
+      '@arrirpc/schema': 0.57.6
       event-source-plus: 0.1.3
       ofetch: 1.3.4
       ws: 8.18.0
@@ -229,9 +229,9 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@arrirpc/schema@0.57.4':
+  '@arrirpc/schema@0.57.6':
     dependencies:
-      jtd-utils: 0.57.4
+      jtd-utils: 0.57.6
       scule: 1.3.0
       uncrypto: 0.1.3
 
@@ -340,7 +340,7 @@ snapshots:
     dependencies:
       ofetch: 1.3.4
 
-  jtd-utils@0.57.4: {}
+  jtd-utils@0.57.6: {}
 
   node-fetch-native@1.6.4: {}
 
