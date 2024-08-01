@@ -12,7 +12,9 @@ fun main() {
         headers = { -> mutableMapOf() },
     )
     runBlocking {
-        val result = client.sayHello(SayHelloParams("John"))
+        val result = client.sayHello(
+            SayHelloParams(name = "John")
+        )
         println(result.message)
     }
 }
