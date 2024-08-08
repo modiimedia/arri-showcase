@@ -1,14 +1,6 @@
-import { defineConfig, generators } from "arri";
+import { defineConfig, servers } from "arri";
 
 export default defineConfig({
-    generators: [
-        generators.typescriptClient({
-            clientName: "Client",
-            outputFile: "./Client.ts",
-        }),
-        generators.dartClient({
-            clientName: "Client",
-            outputFile: "./Client.dart",
-        }),
-    ],
+    server: servers.tsServer(),
+    generators: [],
 });

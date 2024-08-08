@@ -1,0 +1,20 @@
+{
+  "tabWidth": 4,
+  "semi": true,
+  "endOfLine": "lf",
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": ["*.json", "*.jsonc", "*.yaml", ".prettierrc"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.jsonc"],
+      "options": {
+        "trailingComma": "none"
+      }
+    }
+  ]
+}
