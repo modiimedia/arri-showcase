@@ -6,6 +6,10 @@ export const User = a.object("User", {
     email: a.nullable(a.string()),
     createdAt: a.timestamp(),
     role: a.enumerator(["STANDARD", "ADMIN", "MODERATOR"]),
+    settings: a.object("UserSettings", {
+        theme: a.enumerator(["SYSTEM", "DARK", "LIGHT"]),
+        notificationsEnabled: a.boolean(),
+    }),
 });
 export type User = a.infer<typeof User>;
 
@@ -14,7 +18,7 @@ export const UserParams = a.object("GetUserParams", {
 });
 export type UserParams = a.infer<typeof UserParams>;
 
-export const CreateUserParams = a.omit(User, ["id"], {
+export const CreateUserParams = a.omit(User, ["id", "settings"], {
     id: "CreateUserParams",
 });
 export type CreateUserParams = a.infer<typeof CreateUserParams>;

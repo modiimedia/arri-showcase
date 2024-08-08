@@ -1,5 +1,7 @@
 {
   "cSpell.words": ["Arri", "reqwest"],
   "rust-analyzer.linkedProjects": ["${workspaceFolder}/rust-app/Cargo.toml"],
-  "debug.allowBreakpointsEverywhere": true
+  "debug.allowBreakpointsEverywhere": true,
+  "lldb.library": "/home/joshmossas/.local/share/swiftly/toolchains/5.10.1/usr/lib/liblldb.so",
+  "lldb.launch.expressions": "native"
 }
