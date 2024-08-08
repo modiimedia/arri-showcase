@@ -1,8 +1,0 @@
-[package]
-name = "rust"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-arri_client = "0.57.6"
-tokio = { version = "1.39.2", features = ["full"] }
